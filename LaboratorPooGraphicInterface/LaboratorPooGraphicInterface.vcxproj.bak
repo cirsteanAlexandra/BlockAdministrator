@@ -88,27 +88,27 @@
     <QtRcc Include="LaboratorPooGraphicInterface.qrc" />
     <QtUic Include="LaboratorPooGraphicInterface.ui" />
     <QtMoc Include="LaboratorPooGraphicInterface.h" />
-    <ClCompile Include="domain.cpp" />
-    <ClCompile Include="gui.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyModel.cpp" />
-    <ClCompile Include="repository.cpp" />
-    <ClCompile Include="service.cpp" />
-    <ClCompile Include="UI.cpp" />
-    <ClCompile Include="Undo.cpp" />
-    <ClCompile Include="Validator.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\domain.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\gui.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\main.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\MyModel.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\repository.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\service.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\UI.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\Undo.cpp" />
+    <ClCompile Include="..\..\Laborator10\Laborator10\Validator.cpp" />
     <ClCompile Include="LaboratorPooGraphicInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="domain.h" />
-    <ClInclude Include="gui.h" />
-    <ClInclude Include="MyModel.h" />
-    <ClInclude Include="repository.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="service.h" />
-    <ClInclude Include="UI.h" />
-    <ClInclude Include="Undo.h" />
-    <ClInclude Include="Validator.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\domain.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\gui.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\MyModel.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\repository.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\resource.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\service.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\UI.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\Undo.h" />
+    <ClInclude Include="..\..\Laborator10\Laborator10\Validator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
